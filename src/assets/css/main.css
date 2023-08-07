@@ -2100,6 +2100,7 @@ input, select, textarea {
 		border: 0;
 		display: inline-block;
 		position: relative;
+		padding: 2rem;
 	}
 
 		.image img {
@@ -2673,6 +2674,7 @@ input, select, textarea {
 		display: -webkit-flex;
 		display: -ms-flex;
 		display: flex;
+		
 	}
 
 		.spotlight .image {
@@ -2682,6 +2684,7 @@ input, select, textarea {
 			order: 1;
 			border-radius: 0;
 			width: 40%;
+			
 		}
 
 			.spotlight .image img {
@@ -2697,6 +2700,7 @@ input, select, textarea {
 			order: 2;
 			max-width: 48em;
 			width: 60%;
+			padding-bottom: 2rem;
 		}
 
 		.spotlight:nth-child(2n) {
