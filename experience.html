@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mediaqueries.css" />
+  </head>
+  <body>
+    <nav id="desktop-nav">
+      <div class="logo"><a href="index.html">Aishwarya Nagaraj </a></div>
+      <div>
+        <ul class="nav-links">
+          <li><a href="index.html#about">Education</a></li>
+          <li><a href="index.html#experience">Experience</a></li>
+          <li><a href="index.html#projects">Projects</a></li>
+          <li><a href="index.html#contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+    <nav id="hamburger-nav">
+      <div class="logo">Aishwarya</div>
+      <div class="hamburger-menu">
+        <div class="hamburger-icon" onclick="toggleMenu()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="menu-links">
+          <li><a href="index.html#about" onclick="toggleMenu()">About</a></li>
+          <li><a href="index.html#experience" onclick="toggleMenu()">Experience</a></li>
+          <li><a href="index.html#projects" onclick="toggleMenu()">Projects</a></li>
+          <li><a href="index.html#contact" onclick="toggleMenu()">Contact</a></li>
+        </div>
+      </div>
+    </nav>
+    <section id="experience">
+      <h1 class="title">Experience</h1>
+      <br><br>
+      <div class="experience-details-container">
+        <!-- <div class="about-containers"> -->
+        <div class="details-container">
+            <h2 class="experience-sub-title">Software Engineer Intern - Backend<br/>7 Eleven</h2>
+            <h3>( July 2023 - Present )</h3>
+            <div class="article-container">
+              <p>
+                <ul>
+                  <li>Implemented changes to the database design to improve cart response time in Mobile checkout of 7-eleven app</li><br>
+                  <li>Enhanced and modularize the APIs to be used in 7-eleven and 7Now applications</li><br>
+                  <li>Monitor and maintain AWS lambda functions</li>
+                </ul>
+              </p>
+            </div>
+        </div><br>
+        <div class="details-container">
+            <h2 class="experience-sub-title">Software Engineer Intern - Mobile <br/>McKinsey</h2>
+            <h3>( Feburary 2022 - July 2022 )</h3>
+            <div class="article-container">
+             <p>
+              <ul>
+                <li>Developed mobile application for lifestyle firm; utilized statistical methods to analyze improvement scenarios & enhance user experience by 5%</li>
+                <li>Designed Mobile Screens & react native components, increased test coverage by 20%, attributed by unit testing</li>
+                <li>Estimated to enhance revenues by 15%, with more than 60% of new homeowners using application</li>
+              </ul>
+             </p>
+      
+            </div>
+          <!-- </div> -->
+        </div><br>
+        <div class="details-container">
+            <h2 class="experience-sub-title">Data Science - Volunteer<br/>Code for America</h2>
+            <h3>( August 2023 - Present )</h3>
+            <div class="article-container">
+              <p>
+                <ul>
+                  <li>Analyze arrest data for the city of Los Angeles, and incorporate data from other sources, to determine whether there are
+                    actions local leaders can take to address the problem of crime.</li><br>
+                  <li>Conducted in-depth Exploratory Data Analysis using Python to extract meaningful insights.</li><br>
+                </ul>
+              </p>
+            </div>
+        </div><br>
+        <div class="details-container">
+            <h2 class="experience-sub-title">Student Developer - Backend<br/>Amphisoft Technologies</h2>
+            <h3>( July 2019 - August 2019 )</h3>
+            <div class="article-container">
+              <p>
+                <ul>
+                  <li>Managed team of 5 in developing Internship box using Python; presented insights to develop long-term organizational
+                    strategy; achieved an 8% reduction in hiring time of new interns</li><br>
+                  <li>ECompared & documented advantages of deploying different data structures in regard to Time and Space complexity </li><br>
+                </ul>
+              </p>
+            </div>
+        </div><br>
+        </div>
+      </div>
+    </section>
+    
+    <footer>
+      <nav>
+        <div class="nav-links-container">
+          <ul class="nav-links">
+            <li><a href="index.html#about">About</a></li>
+            <li><a href="index.html#experience">Experience</a></li>
+            <li><a href="index.html#projects">Projects</a></li>
+            <li><a href="index.html#contact">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
