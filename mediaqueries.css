@@ -6,6 +6,9 @@
   .about-containers {
     flex-wrap: wrap;
   }
+  .about-d-container{
+    flex-wrap: wrap;
+  }
   #contact,
   #projects {
     height: fit-content;
@@ -45,6 +48,9 @@
   .about-containers {
     margin-top: 0;
   }
+  .about-d-container{
+    margin-top: 0;
+  }
 }
 
 @media screen and (max-width: 600px) {
@@ -63,17 +69,36 @@
     height: fit-content;
     margin-bottom: 2rem;
   }
-  .about-containers,
+  .about-containers, .about-d-container,
   .contact-info-upper-container,
   .btn-container {
     flex-wrap: wrap;
   }
+  .about-details-container{
+    padding-bottom: 5rem;
+  }
+  .about-d-container {
+    display: contents;
+    padding-bottom: 5rem;
+  }
+  .details-container {
+    margin-top: 2rem;
+  }
   .contact-info-container {
     margin: 0;
   }
+  .contact-info-container img {
+    display: none;
+  }
+  .contact-info-container p a{
+    font-size: larger;
+    font-size: 0.70rem;
+    padding-inline: 10px;
+  }
+  
   .contact-info-container p,
   .nav-links li a {
-    font-size: 1rem;
+    font-size: 0.35rem;
   }
   .experience-sub-title {
     font-size: 1.25rem;
@@ -100,4 +125,15 @@
   .text-container {
     text-align: justify;
   }
+  .menu-links a {
+    font-size: 1rem;
+  }
+  .nav-links li a{
+    font-size: 1rem;
+    justify-content: center;
+  }
+  ul {
+    padding-left: 0;
+  }
+  
 }
